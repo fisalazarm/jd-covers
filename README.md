@@ -25,7 +25,7 @@ needed: locate the entry in the archive's file table and copy the bytes.
 
 ## How it stays in sync
 
-`ActualizarTodo.exe` on the game side rebuilds the song database, extracts any
+`UpdateAll.exe` on the game side rebuilds the song database, extracts any
 new covers, **checks that every song has one**, and only then commits and pushes
 here. If a cover is missing it refuses to push and says which one, so this
 repository never ends up half updated.
